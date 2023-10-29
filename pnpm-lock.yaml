@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@codemirror/autocomplete':
     specifier: ^6.9.0
@@ -113,8 +109,8 @@ devDependencies:
     specifier: 6.0.0-next.39
     version: 6.0.0-next.39(@sveltejs/kit@1.24.1)(svelte@4.2.0)
   '@types/diff':
-    specifier: ^5.0.3
-    version: 5.0.3
+    specifier: ^5.0.7
+    version: 5.0.7
   '@types/prismjs':
     specifier: ^1.26.0
     version: 1.26.0
@@ -1021,8 +1017,8 @@ packages:
   /@types/cookie@0.5.2:
     resolution: {integrity: sha512-DBpRoJGKJZn7RY92dPrgoMew8xCWc2P71beqsjyhEI/Ds9mOyVmBwtekyfhpwFIVt1WrxTonFifiOZ62V8CnNA==}
 
-  /@types/diff@5.0.3:
-    resolution: {integrity: sha512-amrLbRqTU9bXMCc6uX0sWpxsQzRIo9z6MJPkH1pkez/qOxuqSZVuryJAWoBRq94CeG8JxY+VK4Le9HtjQR5T9A==}
+  /@types/diff@5.0.7:
+    resolution: {integrity: sha512-adBosR2GntaQQiuHnfRN9HtxYpoHHJBcdyz7VSXhjpSAmtvIfu/S1fjTqwuIx/Ypba6LCZdfWIqPYx2BR5TneQ==}
     dev: true
 
   /@types/estree@1.0.1:
@@ -2456,3 +2452,7 @@ packages:
   /yootils@0.3.1:
     resolution: {integrity: sha512-A7AMeJfGefk317I/3tBoUYRcDcNavKEkpiPN/nQsBz/viI2GvT7BtrqdPD6rGqBFN8Ax7v4obf+Cl32JF9DDVw==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
