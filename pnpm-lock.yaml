@@ -112,8 +112,8 @@ devDependencies:
     specifier: ^5.0.7
     version: 5.0.7
   '@types/prismjs':
-    specifier: ^1.26.0
-    version: 1.26.0
+    specifier: ^1.26.2
+    version: 1.26.2
   '@types/ws':
     specifier: ^8.5.5
     version: 8.5.5
@@ -1032,8 +1032,8 @@ packages:
     resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
     dev: true
 
-  /@types/prismjs@1.26.0:
-    resolution: {integrity: sha512-ZTaqn/qSqUuAq1YwvOFQfVW1AR/oQJlLSZVustdjwI+GZ8kr0MSHBj0tsXPW1EqHubx50gtBEjbPGsdZwQwCjQ==}
+  /@types/prismjs@1.26.2:
+    resolution: {integrity: sha512-/r7Cp7iUIk7gts26mHXD66geUC+2Fo26TZYjQK6Nr4LDfi6lmdRmMqM0oPwfiMhUwoBAOFe8GstKi2pf6hZvwA==}
     dev: true
 
   /@types/pug@2.0.6:
