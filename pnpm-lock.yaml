@@ -118,8 +118,8 @@ devDependencies:
     specifier: ^8.5.5
     version: 8.5.5
   browserslist:
-    specifier: ^4.21.10
-    version: 4.21.10
+    specifier: ^4.22.2
+    version: 4.22.2
   diff:
     specifier: ^5.1.0
     version: 5.1.0
@@ -1200,15 +1200,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist@4.21.10:
-    resolution: {integrity: sha512-bipEBdZfVH5/pwrvqc+Ub0kUPVfGUhlKxbvfD+z1BDnPEO/X98ruXGA1WP5ASpAFKan7Qr6j736IacbZQuAlKQ==}
+  /browserslist@4.22.2:
+    resolution: {integrity: sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001521
-      electron-to-chromium: 1.4.495
-      node-releases: 2.0.13
-      update-browserslist-db: 1.0.11(browserslist@4.21.10)
+      caniuse-lite: 1.0.30001566
+      electron-to-chromium: 1.4.601
+      node-releases: 2.0.14
+      update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
 
   /buffer-crc32@0.2.13:
@@ -1226,8 +1226,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001521:
-    resolution: {integrity: sha512-fnx1grfpEOvDGH+V17eccmNjucGUnCbP6KL+l5KqBIerp26WK/+RQ7CIDE37KGJjaPyqWXXlFUyKiWmvdNNKmQ==}
+  /caniuse-lite@1.0.30001566:
+    resolution: {integrity: sha512-ggIhCsTxmITBAMmK8yZjEhCO5/47jKXPu6Dha/wuCS4JePVL+3uiDEBuhu2aIoT+bqTOR8L76Ip1ARL9xYsEJA==}
     dev: true
 
   /chokidar@3.5.3:
@@ -1351,8 +1351,8 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /electron-to-chromium@1.4.495:
-    resolution: {integrity: sha512-mwknuemBZnoOCths4GtpU/SDuVMp3uQHKa2UNJT9/aVD6WVRjGpXOxRGX7lm6ILIenTdGXPSTCTDaWos5tEU8Q==}
+  /electron-to-chromium@1.4.601:
+    resolution: {integrity: sha512-SpwUMDWe9tQu8JX5QCO1+p/hChAi9AE9UpoC3rcHVc+gdCGlbT3SGb5I1klgb952HRIyvt9wZhSz9bNBYz9swA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -1866,8 +1866,8 @@ packages:
     hasBin: true
     dev: true
 
-  /node-releases@2.0.13:
-    resolution: {integrity: sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==}
+  /node-releases@2.0.14:
+    resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
     dev: true
 
   /nopt@5.0.0:
@@ -2339,13 +2339,13 @@ packages:
     dependencies:
       busboy: 1.6.0
 
-  /update-browserslist-db@1.0.11(browserslist@4.21.10):
-    resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
+  /update-browserslist-db@1.0.13(browserslist@4.22.2):
+    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.2
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
